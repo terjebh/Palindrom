@@ -23,7 +23,7 @@ public class Main {
             high--;
         }
 
-        System.out.println(tekst + (isPalindrome == true ? " er" : "er ikke") + " et palindrom");
+        System.out.println(tekst + (isPalindrome ? " er" : "er ikke") + " et palindrom");
 
     }
 }
